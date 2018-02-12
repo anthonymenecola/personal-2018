@@ -1,0 +1,172 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+@import "colours";
+
+$font-display: 'Eczar', Georgia, Times, serif;
+$font-text: 'Karla', Helvetica, Arial, sans-serif;
+$font-mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", Courier, monospace;
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: $font-text;
+  line-height: 1.75;
+  font-size: 18px;
+  color: $dark-grey;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+.highlight {
+  margin: 0.75em 0 1em 0;
+  font-family: $font-display;
+}
+
+p, pre, figure, blockquote {
+  margin: 0.75em 0 2em 0;
+}
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; color: $dark-grey;}
+
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+.post-title-header {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.post-tag-output {
+  text-align: center;
+  color: $med-grey;
+  margin-top: 0;
+}
+
+/**
+ * Links
+ */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.entry-content, .page-content a {
+  color: $orange-punch;
+  border-bottom: 1px solid $light-grey;
+  padding-bottom: 0.1em;
+  transition: border 0.3s ease-in-out;
+  -moz-transition: border 0.3s ease-in-out;
+  -webkit-transition: border 0.3s ease-in-out;
+  -o-transition: border 0.3s ease-in-out;
+  &:hover {
+    border-bottom: 1px solid $med-grey;
+    transition: border 0.3s ease-in-out;
+    -moz-transition: border 0.3s ease-in-out;
+    -webkit-transition: border 0.3s ease-in-out;
+    -o-transition: border 0.3s ease-in-out;
+  }
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $orange-punch;
+  font-family: $font-display;
+  border-left: 4px solid $light-grey;
+  padding: 0 0 0 1em;
+  margin: 1.75em 0 1.5em 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  }
+  blockquote > :last-child {
+    margin-bottom: 0em; }
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+  background-color: #eef; }
+
+code {
+  padding: 1px 5px; }
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto; }
+  pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0; }
+
+// NEW STYLES //
+li {
+  list-style: none;
+}
+
+figure {
+  color: $med-grey;
+  font-size: 0.75em;
+  font-family: $font-mono;
+}
+
+// Little big details //
+::-webkit-selection {
+  background: $highlight-bg;
+  color: $dark-grey;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: $highlight-bg;
+  color: $dark-grey;
+  text-shadow: none;
+}
+
+::selection {
+  background: $highlight-bg;
+  color: $dark-grey;
+  text-shadow: none;
+}
