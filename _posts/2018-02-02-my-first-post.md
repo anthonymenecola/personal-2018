@@ -14,7 +14,7 @@ tags: [stills, los angeles]
 {:.post-image}
 ![Overlooking Los Angeles]({{ "/assets/img/la-1.jpg" | absolute_url }})<figure>This is a caption</figure>
 
-## Heading 2
+# Heading inside
 
 A few months ago _I landed a dream job._ I spent the better part of three months assembling a portfolio, speaking with people I admired in the industry, taking phone calls, [scheduling interviews](https://www.google.com), even flying to different cities to make face-to-face appearances. It was as exhausting as it was eye opening. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
@@ -25,7 +25,7 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 
 > It is not uncommon for engineering or business minded individuals to
 > think of design as some magical pixie dust that you sprinkle onto something
-> to make it more beautiful to the masses.
+> to make it more beautiful.
 
 The term design, in the landscape of the tech world, is a loaded and often misunderstood word. It is not uncommon for engineering or business minded individuals to think of design as some magical pixie dust that you sprinkle onto something to make it more beautiful to the masses.
 

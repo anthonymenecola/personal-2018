@@ -41,6 +41,16 @@ h1, h2, h3, h4, h5, h6,
 p, pre, figure, blockquote {
   margin: 0.75em 0 2em 0;
 }
+
+.page-content p {
+  max-width: 40em;
+  margin: 0.75em auto 1.5em auto;
+}
+
+.page-content h1,h2,h3,h4,h5,h6 {
+  max-width: 720px;
+  margin: 0 auto 0 auto;
+}
 /**
  * Lists
  */
@@ -80,6 +90,11 @@ h3 {
   margin-top: 0;
 }
 
+.intro-text {
+  line-height: 1.4;
+  font-size: 2em;
+}
+
 /**
  * Links
  */
@@ -88,7 +103,7 @@ a {
   text-decoration: none;
 }
 
-.entry-content, .page-content a {
+.entry-content a, .page-content a {
   color: $orange-punch;
   border-bottom: 1px solid $light-grey;
   padding-bottom: 0.1em;
@@ -114,8 +129,8 @@ blockquote {
   border-left: 4px solid $light-grey;
   padding: 0 0 0 1em;
   margin: 1.75em 0 1.5em 0;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 2em;
+  line-height: 1.4em;
   }
   blockquote > :last-child {
     margin-bottom: 0em; }
